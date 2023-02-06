@@ -1,0 +1,298 @@
+body {
+  margin: 0px;
+  padding: 0px 5vw;
+}
+
+b {
+  font-weight: 700;
+}
+
+em  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.clr-grey-shade {
+  color: #333333;
+}
+
+.clr-grey-tone {
+  color: #4F4F4F;
+}
+
+.clr-orange-tint {
+  color: #F2994A;
+}
+
+.header__h1 {
+  margin: 3rem 0px 1rem;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.introduction {
+  max-width: 60ch;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: baseline;
+  line-height: 1.2em;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.introduction__svg {
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.figure {
+  width: 100%;
+  margin: 0px 0px 1.5rem 0px;
+}
+
+.figure__cake-image {
+  display: block;
+  width: 100%;
+}
+
+.main {
+  margin-bottom: 8rem;
+}
+
+.main__recipe-durations-and-ingredients-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-durations-section {
+  width: 100%;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recipe-durations-section__item {
+  display: flex;
+}
+
+.item-one {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* .item-one__spoon-knife  {
+  color: #F2994A;
+} */
+/* 
+.item-one__item-info {
+  color: #F2994A;
+} */
+
+.item__icon {
+  margin-right: 0.5rem;
+  align-self: center;
+  font-size: 1.5rem;
+}
+
+.item__label {
+  margin: 0px;
+  font-size: 8px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #BDBDBD;
+}
+
+.item__info {
+  margin: 0px;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ingredient-section__title {
+  margin-bottom: 2rem;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+}
+
+.ingredient-section__ingredient-item {
+  margin-bottom: 2rem;
+}
+
+.ingredient-item-name {
+  margin-bottom: 2rem;
+  font-size: 18px;
+  font-weight: 400;
+  font-family:  'Playfair Display', serif;
+  font-style: italic;
+}
+
+.checkbox-list__checkbox-details {
+  display: flex;
+  align-items: baseline;
+  box-sizing: border-box;
+}
+
+.checkbox-list__checkbox-details p{
+  width: 90%;
+  margin-top: 0px;
+  line-height: 2rem;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0.25rem 0.5rem 0px 0px;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 6px;
+  transition: border 0.2s;
+}
+
+.fa-check {
+  font-size: 1.25rem;
+  color: white;
+  transition: color 0.2s;
+}
+
+.instructions-section__title {
+  margin-bottom: 2rem;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+}
+
+.instructions-section__step {
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: flex-start
+}
+
+.instructions-section__step p {
+  width: 50ch;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.step-number {
+  margin-right: 1rem;
+  padding: 0px 0.8rem 0.4rem;
+  border-radius: 8px;
+  background-color: #F2994A;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+.main__recipe-source-link {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  color: #BDBDBD;
+}
+
+.footer {
+  width: max-content;
+  margin: 0px auto 0.5rem;
+}
+
+.footer__p {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #828282;
+}
+
+@media (min-width: 1080px) {
+  body {
+    padding: 0px 15vw;
+  }
+
+  .header__h1 {
+    font-size: 48px;
+  }
+
+  .introduction {
+    margin-bottom: 2rem;
+    font-size: 14px;
+  }
+
+  .figure {
+    margin-bottom: 2rem;
+  }
+
+  .main__recipe-durations-and-ingredients-section {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+
+  .recipe-durations-section {
+    width: max-content;
+    padding: 0px 2.25rem;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0.5px 0.5px 6px 2px #eae4e4
+  }
+
+  .recipe-durations-section__item {
+    width: 110px;
+    margin-bottom: 2rem;
+  }
+
+  .item-one {
+    margin-top: 2rem;
+  }
+
+  .item__label {
+    font-size: 10px;
+  }
+
+  .item__info {
+    font-size: 14px;
+  }
+
+  .ingredient-section {
+    margin-right: auto;
+  }
+
+  .ingredient-section__title {
+    font-size: 24px;
+  }
+
+  .checkbox-list__checkbox-details {
+    width: 50ch;
+  }
+
+  .checkbox-list__checkbox-details p {
+    font-size: 16px;
+  }
+
+  .instructions-section {
+    margin-bottom: 4rem;
+  }
+
+  .instruction-section__step p {
+    width: 50ch;
+  }
+
+  .main__recipe-source-link {
+    font-size: 16px;
+  }
+
+  .footer__p {
+    font-size: 14px;
+  }
+}
